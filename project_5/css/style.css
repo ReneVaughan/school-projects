@@ -1,0 +1,77 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url("space.jpeg");
+}
+
+#content {
+    width: 980px;
+    margin: auto;
+    background-color: rgba(212, 219, 235, .85);
+    color: #091B4A;
+
+}
+
+h2 {
+    background: linear-gradient(to bottom, rgba(9,27,74,1) 0%,rgba(81,125,172,1) 62%,rgba(115,171,218,0.7) 91%,rgba(125,185,232,0) 100%); /* W3C */
+
+    color: #D4DBEB;
+    padding: 25px;
+    font-size: 38px;
+
+
+}
+
+h4 {
+
+    padding: 15px;
+    color: #091B4A;
+    font-size: 28px;
+    border-bottom: 2px solid #091B4A;
+
+
+}
+
+
+p {
+    padding: 25px;
+    font-size: 18px;
+}
+
+#facts ul li {
+    padding-left: 35px;
+
+}
+
+#links ul li {
+    list-style: none;
+    float: left;
+    margin: 3px;
+
+}
+
+ul li a {
+    display: block;
+	line-height: 2em;
+	padding: 0 1em;
+	text-decoration: none;
+
+}
+
+ul li a:hover {
+    background-image: url("space.jpeg");
+}
+
+#planets {
+    clear: both;
+    line-height: 25px;
+    padding: 75px;
+
+}
+
+#footer {
+    clear: both;
+    background-color: #091B4A;
+    color: #D4DBEB;
+    padding: 15px;
+    margin-top: 30px;
+}

@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Request Information</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<link href="css/main.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+<div class="container">
+  <header>
+  	<h1>England</h1>	
+    <nav id="main" role="navigation">
+
+      <ul id="mainNav">
+          <li><a href="index.html">Home</a></li>         
+          <li><a href="tourism.html">Tourism</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="history.html">History</a></li>
+          <li><a href="form.html">Contact</a></li>
+      </ul>
+
+    </nav>
+  </header>
+  
+ <div id="formwrapper">
+ 
+ <h2> Comment/Request Information Form </h2>
+  
+  <form id="myform" class="group" action="POST" method="POST" >
+	<fieldset title="Login Information">
+		<legend>Login Information</legend>
+		<ol>
+			<li>
+				<label for="myname">Name</label>
+				<input type="text" name="myname" id="myname" autofocus placeholder="Jane Doe" required />
+			</li>
+			<li>
+				<label for="myemail">Email</label>
+				<input type="email" name="myemail" id="myemail" required  placeholder="jane@gmail.com"/>
+			</li>
+			<li>
+				<label for="mypassword">Password</label>
+				<input type="password" name="mypassword" id="mypassword" required />
+			</li>
+		</ol>
+	</fieldset>
+	<fieldset title="General Information">
+		<legend>General Information</legend>
+		<ol>
+			<li>
+				<label for="mycountry">Country</label>
+				<input type="text" name="mycountry" id="mycountry" placeholder="United States" />
+			</li>
+			<li>
+				<label for="mytelephone">Telephone</label>
+				<input type="tel" name="mytelephone" id="mytelephone" placeholder="1-763-267-9434" />
+			</li>
+			<li>
+				<label for="reference">What sites are you interested in?</label>
+				<select name="reference" id="reference">
+					<option>Choose...</option>
+					<option value="Big Ben">Big Ben</option>
+					<option value="Buckingham Palace">Buckingham Palace</option>
+					<option value="Globe Theatre">Globe Theatre</option>
+                  <option value="London Bridge">London Bridge</option>
+                  <option value="London Eye">London Eye</option>
+                  <option value="River Thames">River Thames</option>
+                  <option value="Stonehenge">Stonehenge</option>
+                  <option value="Tower London">Tower London</option>
+                  <option value="Westminster Abbey">Westminster Abbey</option>
+                  <option value="Windsor Castle">Windsor Castle</option>
+                  <option value="Other">Other</option>
+				</select>
+			</li>
+		</ol>
+	</fieldset>
+	<fieldset title="Comments">
+	<legend>Comments</legend>
+		<ol>
+			<li>
+				<div class="grouphead">Request Type</div>
+				<ol>
+					<li>
+						<input type="radio" name="requesttype" value="question" id="information" />
+						<label for="information">Information</label>
+					</li>
+					<li>
+						<input type="radio" name="requesttype" value="comment" id="commentitem" />
+						<label for="commentitem">Comment</label>
+					</li>
+				</ol>
+			</li>
+			<li>
+				<label for="mycomments">Comment</label>
+				<textarea name="mycomments" id="mycomments"></textarea>
+			</li>
+		</ol>
+        <ol>
+        	<li class="singleline">
+				<input type="checkbox" id="subscribeitem" name="subscribe" CHECKED value="yes" />
+				<label for="subscribeitem">Subscribe to our mailing list?</label>
+			</li>
+		</ol>
+	<button type="submit">Submit</button>
+</fieldset>
+</form>
+
+</div> <!--END FORM WRAPPER-->
+  <footer>
+    <p>Resources: <a href="" target="_blank">Wikipedia</a></p>
+  </footer>
+
+</div><!--END CONTAINER-->
+</body>
+</html>

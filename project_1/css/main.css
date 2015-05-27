@@ -1,0 +1,706 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body {
+	width: 0 auto;
+	margin-top: 50px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: #F7F3FF;
+	line-height: 1.25em;
+	
+}
+
+.container {
+	width: 85%; /*Holding outer div - everything from here is based on 980px width*/
+	margin-right:auto;
+	margin-left:auto;
+	
+}
+
+header {
+
+	width: 0 auto;	
+	background-color: #5249b2;
+	padding: 1.25em;
+		
+}
+
+header h1 {
+	color: #f7f3ff;
+	
+}
+
+h1:hover {
+	cursor:pointer;
+	transform: skew(15deg, 5deg);
+}
+
+nav#main {
+	float: right;
+	padding-bottom: 25px;
+	margin-top: 26px;
+	margin-left: -10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	/*width: 72.7083333%;*/
+	
+	
+}
+
+
+nav ul li {
+	
+	list-style: none;
+	float: left;
+	
+}
+
+nav ul li a:hover {
+	transform: scale(1.5);
+}
+
+ul {
+	
+	width: 100%;
+}
+
+nav li a {
+	display: block;
+	line-height: 2em;
+	padding: 0 1em;
+	text-decoration: none;
+}
+
+/*set up responsiveness for the main image*/
+#mainimg img {
+	max-width: 100%;
+	height: auto;
+	
+}
+
+h2 {
+	text-align:center;
+	border-bottom: 2px solid #000000;
+	margin-top: 25px;
+	margin-bottom: 20px;
+	background-color: #b292db;
+	line-height: 1.50em;
+	border-radius: 4px;
+	
+}
+
+h3 {
+	border-bottom: 2px solid #5249b2;
+	line-height: 1.5em;
+
+}
+
+h4 {
+	border-bottom: 2px solid #5249b2;
+	line-height: 1.5em;
+
+}
+
+
+
+div#culture {
+	
+    width: 0 auto;
+    max-height: 500px;
+    margin: 15px auto;
+    
+    
+}
+
+
+div#folklore {
+
+	background-color: #EADBFF;
+	float: left;
+	width: 25.938775%;
+	padding: 3.00300%;
+	margin-left: 1.020408%;
+	border-radius: 4px;
+	z-index: 1;
+	margin-bottom: 15px;
+}
+
+div#architecture {
+
+	background-color: #EADBFF;
+	width: 25.938775%;
+	padding: 3.00300%;
+	margin-left: 1.020408%;
+	border-radius: 4px;
+	z-index: 2;
+	float: left;
+	margin-bottom: 15px;
+}
+
+div#cuisine {
+
+	background-color: #EADBFF;
+	width: 25.938775%;
+	padding: 3.00300%;
+	margin-left: 1.020408%;
+	margin-right: 1.020408%;
+	border-radius: 4px;
+	z-index: 3;
+	float: left;
+	margin-bottom: 15px;
+}
+
+h4 {
+	text-align: center;
+}
+
+div#population {
+	clear:both;
+	position: realtive;
+}
+
+div#popoverview {
+	margin-top: 1.25em;
+}
+
+
+table {
+	border-collapse:collapse;
+	width: auto;
+}
+
+th {
+	text-align:left;
+	background: linear-gradient(to bottom, rgba(82,73,178,1) 0%,rgba(158,137,214,1) 60%,rgba(178,146,219,1) 100%); /* W3C */
+	color: #F7F3FF;
+	
+
+}
+
+td {
+	border-bottom: 2px solid #5249b2;
+}
+
+th, td {
+	padding: .5em;
+}
+
+tr:hover {
+	background-color: #b292db;
+	color: #f7f3ff;
+	cursor:pointer;
+}
+
+
+footer {
+	clear: both;
+	margin-top: 50px;
+	background-color: #5249b2;
+	text-align:center;
+	width: auto;
+	padding: 1.25em;
+	color: #f7f3ff;
+	
+}
+
+a {
+	text-decoration:none;
+	font-size: 1.05em;
+	font-weight:bold;
+	
+}
+
+a:link{
+	color: #000000; 
+}
+
+a:visited{
+	color: #000000;
+}
+
+a:hover{
+	color: #254AC0;
+	font-weight: bolder;
+}
+
+a:active{
+	color: #00026B;
+}
+ 
+footer a:hover {
+	 color: white;
+}
+
+/*******************HISTORY CSS*********************/
+
+div#histcontainer {
+	clear: both;
+}
+
+
+/*******************TOURISM CSS*********************/
+
+div#tourwrapper,
+div#tournav,
+div#museums,
+div#historic,
+div#mainattra,
+div#londonvid,
+div#cities {
+	clear: both;
+}
+
+
+
+div#tournav {
+	
+	width: 97.95918%;
+	height: auto;
+	padding: 1.04166%;
+}
+
+.tournav {
+	padding: 3.5675%;
+}
+
+
+a.tournav img {
+	max-height: 100px;
+	max-width: 175px;
+	padding: 0 1em;
+}
+
+#tournav .img1 img{
+	transform: rotate(-4deg);
+	-ms-transform: rotate(-4deg);
+	-webkit-transform: rotate(-4deg);
+}
+
+#tournav .img2 img{
+	transform: rotate(4deg);
+	-ms-transform: rotate(4deg);
+	-webkit-transform: rotate(4deg);
+
+}
+
+#tournav .img3 img{
+	transform: rotate(-4deg);
+	-ms-transform: rotate(-4deg);
+	-webkit-transform: rotate(-4deg);
+
+}
+
+#tournav .img4 img{
+	transform: rotate(4deg);
+	-ms-transform: rotate(4deg);
+	-webkit-transform: rotate(4deg);
+
+}
+
+#tournav .img1 img:hover{
+	transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+	transition-duration: .5s;
+	transition-timing-function: ease-in;
+
+}
+
+#tournav .img2 img:hover{
+	transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+	transition-duration: .5s;
+	transition-timing-function: ease-in;
+
+}
+
+#tournav .img3 img:hover{
+	transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+	transition-duration: .5s;
+	transition-timing-function: ease-in;
+
+}
+
+#tournav .img4 img:hover{
+	transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+	transition-duration: .5s;
+	transition-timing-function: ease-in;
+
+}
+
+
+
+
+a.tournav {
+	
+	color: #000;
+	display: inline;
+	text-decoration: none;
+	
+}
+
+
+iframe {
+	max-width: 98%;
+	height: auto;
+	margin: auto;
+
+}
+
+div#londonvid {
+	margin-top: 50px;
+	max-height: 360px;
+	max-width: 640px;
+	clear: both;
+	
+
+}
+
+
+
+/*******************GALLERY CSS*********************/
+
+div#gallerywrapper {
+	clear: both;
+}
+
+section {
+	width: auto;
+	
+}
+
+figure img {
+	height: 180px;
+	width: 280px;
+
+}
+
+#img1 {
+	float: left;
+	z-index: 1;
+
+}
+
+#img2 {
+	float: left;
+	z-index: 2;
+}
+
+#img3 {
+	float: left;
+	z-index: 3;
+}
+
+#img4 {
+	float: left;
+	z-index: 4;
+}
+
+#img5 {
+	float: left;
+	z-index: 5;
+}
+
+#img6 {
+	float: left;
+	z-index: 6;
+}
+
+#img7 {
+	float: left;
+	z-index: 7;
+}
+
+#img8 {
+	float: left;
+	z-index: 8;
+}
+
+#img9 {
+	float: left;
+	z-index: 9;
+}
+
+footer {
+	clear:both;
+	z-index: 10;
+}
+
+
+/*******************FORM CSS*********************/
+
+div#formwrapper {
+	clear: both;
+}
+
+
+
+#myform {
+	background: linear-gradient(to bottom, rgba(82,73,178,1) 0%,rgba(158,137,214,1) 60%,rgba(178,146,219,1) 100%); /* W3C */
+	border-radius: 10px;
+	width: 80%;
+	margin: 0 auto;
+	max-width: 500px;
+}
+
+
+#myform fieldset {
+	border: none;
+	margin: 0;
+	padding: 0;
+	margin: 10px;
+}
+
+#myform fieldset:before {
+	content:attr(title);
+	display: block;
+	padding: 0;
+	padding-top: 25px;
+	font-weight: bold;
+	font-size: 1.50em;
+	color: #FFDDA4;
+	margin: 0 auto;
+}
+  
+#myform legend {
+	display: none;
+}
+
+#myform ol {
+	margin: 0px;
+	padding: 0px;
+}
+ 
+#myform ol li {
+	list-style: none;
+	padding: 10px;
+
+}
+
+
+#myform ol li ol li {
+	padding-bottom: 0;
+	display: inline;
+	padding: 0px;
+	border-top: none;
+	border-bottom: none;
+}
+
+#myform ol li:first-child {
+	border-top:none;
+}
+
+#myform ol li:last-child {
+	border-bottom:none;
+}
+
+
+#myform ol li input[type="checkbox"] {
+	width: auto;
+	display: inline;
+}
+
+#myform ol li ol li input {
+	display: inline;
+	width: auto;
+}
+
+#myform ol li label, .grouphead {
+	color: #f7f3ff;
+	font-weight: bold;
+	display: block;
+	margin-bottom: 5px;
+	
+}
+
+#myform ol li.singleline label {
+	font-weight: normal;
+	display: inline;
+}
+
+#myform ol li ol li label {
+	font-weight: normal;
+	display: inline;
+	cursor: pointer
+}
+
+#myform ol li input, #myform textarea {
+	display: block;
+	width: 96%;
+	border: 1px solid #343742;
+	padding: 5px;
+	background-color: #F7F3FF;
+	margin: 0 auto;
+	outline: none;
+	border-radius: 5px;
+}
+
+#myform input[required] {
+	border-color: #D056FF;
+}
+
+
+
+#myform ol li select {
+	width: 200px;
+	width: 50%;
+	min-width: 150px;
+	background-color: #F7F3FF;
+	color: #343742;
+	font-weight: bold;
+	border: 0;
+	border-radius: 8px;
+}
+
+#myform textarea {
+	height: 75px;
+}
+
+#myform button {
+	width: 100px;
+	width: 30%;
+	min-width: 100px;
+	float: right;
+	margin-top: 15px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	border: 0;
+	background-color: #5249B2;
+	color: #F7F3FF;
+	cursor: pointer;
+	font-size: 1.25em;
+	font-weight: bold;
+	border-radius: 8px;
+}
+
+#myform button:hover {
+	color: black;
+	background-color: #FFDDA4;
+	transition-duration: .5s;
+	transition-timing-function: ease-in;
+}
+
+
+/******************* MEDIA QUIERIES ********************/
+
+
+
+
+
+@media screen and (min-width: 480px) and (max-width: 767px){
+
+nav {
+	
+	clear: left;
+}
+
+div#culture {
+	/*width: auto;*/
+}
+
+div#folklore {
+	width: 100%;
+	margin-left: 0;
+	
+}
+
+div#architecture {
+	clear: left;
+	width: 100%;
+	margin-left: 0;
+}
+
+div#cuisine {
+	clear: both;
+	width: 100%;
+	margin-left: 0;
+}
+
+div#popoverview {
+	float: none;
+	width: 100%;
+}
+
+div#table {
+	float: none;
+	width: 100%;
+}
+
+
+.tournav {
+	padding: 1.5675%;
+}
+
+
+	
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 479px){
+
+nav {
+	
+	float: left;
+}
+
+div#culture {
+	/*width: auto;*/
+}
+
+
+div#folklore {
+	width: 100%;
+	margin-left: 0;
+	
+}
+
+div#architecture {
+	clear: left;
+	width: 100%;
+	margin-left: 0;
+}
+
+div#cuisine {
+	clear: both;
+	width: 100%;
+	margin-left: 0;
+}
+
+div#popoverview {
+	float: none;
+	width: 100%;
+}
+
+div#table {
+	float: none;
+	width: 100%;
+}
+
+#tournav {
+	display: none;
+}
+
+#tournav img {
+	display:none;
+}
+
+th, td {
+	border: 2px solid #5249b2;
+}
+
+	
+}
+
+@media screen and (min-width: 768px) and (max-width: 959px){
+.tournav {
+	padding: 2.5675%;
+}
+
+	
+}

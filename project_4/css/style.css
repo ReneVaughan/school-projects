@@ -1,0 +1,102 @@
+body {
+
+	margin-top: 150px;
+    font-family: 'Roboto', sans-serif;
+	background-color: #ECF2F6;
+
+	
+}
+
+#container {
+	width: 628px;
+	height: 672px;
+	border-radius: 5px;
+	margin: auto;
+	background-color: #FFFFFF;
+	line-height: 20px;
+
+}
+
+h4 {
+    padding: 15px;
+}
+
+#myworkout {
+    padding-left: 100px;
+    line-height: 35px;
+}
+
+
+
+.work {
+    width: 628px;
+    background-color: #FFFFFF;
+    margin: auto;
+    font-size: 18px;
+    color: #AE69AF;
+    padding-bottom: 5px;
+
+}
+
+
+
+h2 {
+    background-color: #6F7D95;
+	color: #FFFFFF;
+	width: 628px;
+	height: 60px;
+	font-size: 34px;
+	padding-top: 25px;
+
+	
+}
+
+legend {
+    color: #AE69AF;
+    font-size: 32px;
+    margin: 15px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ECF2F6;
+}
+
+#myworkout select {
+    border: 1px solid #6F7D95 !important;
+    width: 100px;
+    text-overflow: "";
+    border-radius: 5px;
+    padding: 5px;
+    color: #AE69AF;
+    background-color: #FFFFFF !important;
+}
+
+
+
+input {
+
+    border: 1px solid #6F7D95;
+    padding: 4px;
+    background-color: #FFFFFF;
+    outline: none;
+    border-radius: 5px;
+}
+
+#button {
+    width: 216px;
+    height: 46px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 0;
+    background-color: #AE69AF;
+    color: #FFFFFF;
+    font-size: 26px;
+    border-radius: 8px;
+
+}
+
+#button:hover {
+    color: #FFFFFF;
+    background-color: #6F7D95;
+    transition-duration: .5s;
+    transition-timing-function: ease-in;
+
+}

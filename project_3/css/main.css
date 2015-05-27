@@ -1,0 +1,1043 @@
+@charset "UTF-8";
+/* Student: Rene Vaughan
+Class: WSP
+Assignment: Prototype 
+*/
+
+body {
+	width: 0 auto;
+	margin-top: 50px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: #FDFAF4;
+	line-height: 1.25em;
+
+	
+}
+
+.container {
+	width: 85%; /*Holding outer div - everything from here is based on 980px width*/
+	margin-right:auto;
+	margin-left:auto;
+	padding-left: 0;
+	padding-right: 0;
+	background: radial-gradient(
+		white,
+		#ddd6cc
+	);
+	
+}
+
+header {
+	
+	width: 0 auto;
+	background-color: #007DC3;
+	padding: 1.25em;
+	margin: 0;
+	
+		
+}
+
+header h1 {
+	color: #ffffff;
+	
+}
+
+h1 img {
+	height: 50px;
+	width: 50px;
+}
+
+nav {
+	
+}
+
+nav#main {
+	float: right;
+	padding-bottom: 25px;
+	margin-top: 26px;
+	/*margin-left: -10px;*/
+	padding-right: 10px;
+	padding-left: 10px;
+	/*width: 72.7083333%;*/
+	
+	
+	
+}
+
+
+nav ul li {
+	
+	list-style: none;
+	float: left;
+	
+}
+
+nav ul li a:hover {
+	text-decoration: none;
+	color: white;
+	transform: scale(1.5);
+}
+
+ul {
+	
+	width: 100%;
+}
+
+nav li a {
+	display: block;
+	line-height: 2em;
+	padding: 0 1em;
+	text-decoration: none;
+	font-size: 1.25em;
+	color: white;
+}
+
+
+
+h2 {
+	text-align:center;
+	/*border-bottom: 2px solid #000000;*/
+	margin-top: 25px;
+	margin-bottom: 20px;
+	/*background-color: ;*/
+	line-height: 1.50em;
+	border-radius: 4px;
+	
+}
+
+h3 {
+	line-height: 1.5em;
+	text-align: center;
+
+}
+
+h4 {
+	
+	line-height: 1.5em;
+
+}
+
+.searchbox {
+	text-align:center;
+}
+
+.search {
+	border-radius: 5px;
+	height: 35px;
+}
+
+footer {
+	clear: both;
+	background-color: #007DC3;
+	color: white;
+	text-align: center;
+	height: 50px;
+	width: 100%;
+	margin-top: 25px;
+}
+
+footer p {
+	font-size: 1.15em;
+	padding-top: 15px;
+}
+
+/*******************INDEX/HOME CSS*******************/
+
+.search {
+	width: 35%;
+	border: solid 2px #007DC3;
+	padding: 5px;
+}
+
+.submit {
+	width: 15%;
+	padding: 10px;
+	border: none;
+	border-radius: 10px;
+	font-size: 1.50em;
+	background-color: #007DC3;
+	color: white;
+}
+
+.belowsearch {
+	width: 100%;
+	background-color: #007DC3;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	height: 100%;
+}
+
+.featured {
+	float: left;
+	width: 60%;
+	height: 95%;
+	margin-right: 2%;
+	margin-left: 1.5%;
+	border-radius: 10px;
+	background-color: #67ADDA;
+	margin-bottom: 25px;
+
+}
+
+.featured h3 {
+	color: white;
+	text-align: center;
+}
+
+#featured1, #featured2, #featured3 {
+	width: 30%;
+	height: 75%;
+	float: left;
+	background-color: white;
+	color: #007DC3;
+	border-radius: 0 0 10px 10px;
+	margin-left: 2.33333%;
+	margin-bottom: 2%;
+}
+
+.featuredhead {
+	background-color: #007dc3;
+	margin-top: 0;
+	padding: 10px;
+	color: white;
+	text-align: center;
+}
+
+.pcontent {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.featuredbtn {
+	background-color: #007dc3;
+	border-radius: 10px;
+	float: right;
+	padding: 10px;
+	margin-right: 2%;
+	margin-bottom: 2%;
+	color: white;
+	font-size: .85em;
+	border: none;
+}
+
+.featured img {
+	width: 100%;
+	height: 175px;
+}
+
+.cta {
+	float: left;
+	width: 35%;
+	height: 60%;
+	border-radius: 10px;
+	background-color: #67ADDA;
+	font-size: 1.85em;
+	
+}
+
+.ctacontent {
+	padding: 15px;
+	color: white;
+	/*letter-spacing: .085em;*/
+	line-height: 1.20em;
+	text-align: justify;
+}
+
+.cta button {
+	background-color: #007DC3;
+	border-radius: 10px;
+	float: right;
+	padding: 10px;
+	margin-right: 2%;
+	margin-bottom: 2%;
+	color: white;
+	font-size: .85em;
+	border: none;
+}
+
+/*******************SIGN UP CSS*********************/
+
+div#formwrapper {
+	clear: both;
+}
+
+
+
+#myform {
+	background: #67ADDA;
+	border-radius: 10px;
+	width: 80%;
+	margin: 0 auto;
+	max-width: 500px;
+}
+
+
+#myform fieldset {
+	border: none;
+	margin: 0;
+	padding: 0;
+	margin: 10px;
+}
+
+#myform fieldset:before {
+	content:attr(title);
+	display: block;
+	padding: 0;
+	padding-top: 25px;
+	font-weight: bold;
+	font-size: 1.50em;
+	color: #FDFAF4;
+	margin: 0 auto;
+}
+  
+#myform legend {
+	display: none;
+}
+
+#myform ol {
+	margin: 0px;
+	padding: 0px;
+}
+ 
+#myform ol li {
+	list-style: none;
+	padding: 10px;
+
+}
+
+
+#myform ol li ol li {
+	padding-bottom: 0;
+	display: inline;
+	padding: 0px;
+	border-top: none;
+	border-bottom: none;
+}
+
+#myform ol li:first-child {
+	border-top:none;
+}
+
+#myform ol li:last-child {
+	border-bottom:none;
+}
+
+
+#myform ol li input[type="checkbox"] {
+	width: auto;
+	display: inline;
+}
+
+#myform ol li ol li input {
+	display: inline;
+	width: auto;
+}
+
+#myform ol li label, .grouphead {
+	color: #007DC3;
+	font-weight: bold;
+	display: block;
+	margin-bottom: 5px;
+	
+}
+
+#myform ol li.singleline label {
+	font-weight: normal;
+	display: inline;
+}
+
+#myform ol li ol li label {
+	font-weight: normal;
+	display: inline;
+	cursor: pointer
+}
+
+#myform ol li input, #myform textarea {
+	display: block;
+	width: 96%;
+	border: 1px solid #343742;
+	padding: 5px;
+	background-color: #FDFAF4;
+	margin: 0 auto;
+	outline: none;
+	border-radius: 5px;
+}
+
+#myform input[required] {
+	border-color: #007DC3;
+	
+}
+
+
+#myform button {
+	width: 100px;
+	width: 30%;
+	min-width: 100px;
+	float: right;
+	margin-top: 15px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	border: 0;
+	background-color: #007DC3;
+	color: #F7F3FF;
+	cursor: pointer;
+	font-size: 1.25em;
+	font-weight: bold;
+	border-radius: 8px;
+}
+
+#myform button:hover {
+	color: black;
+	background-color: #FDFAF4;
+	transition-duration: .5s;
+	transition-timing-function: ease-in;
+}
+
+
+
+/******************LOGIN CSS********************/
+#loginform {
+	background: #67ADDA;
+	border-radius: 10px;
+	width: 80%;
+	margin: 0 auto;
+	max-width: 500px;
+}
+
+
+#loginform fieldset {
+	border: none;
+	margin: 0;
+	padding: 0;
+	margin: 10px;
+}
+
+#loginform fieldset:before {
+	content:attr(title);
+	display: block;
+	padding: 0;
+	padding-top: 25px;
+	font-weight: bold;
+	font-size: 1.50em;
+	color: #FDFAF4;
+	margin: 0 auto;
+}
+  
+#loginform legend {
+	display: none;
+}
+
+#loginform ul {
+	margin: 0px;
+	padding: 0px;
+}
+ 
+#loginform ul li {
+	list-style: none;
+	padding: 10px;
+
+}
+
+
+#loginform ul li ul li {
+	padding-bottom: 0;
+	display: inline;
+	padding: 0px;
+	border-top: none;
+	border-bottom: none;
+}
+
+#loginform ul li:first-child {
+	border-top:none;
+}
+
+#loginform ul li:last-child {
+	border-bottom:none;
+}
+
+
+#loginform ul li input[type="checkbox"] {
+	width: auto;
+	display: inline;
+}
+
+#loginform ul li ol li input {
+	display: inline;
+	width: auto;
+}
+
+#loginform ul li label, .grouphead {
+	color: #007DC3;
+	font-weight: bold;
+	display: block;
+	margin-bottom: 5px;
+	
+}
+
+#loginform ul li.singleline label {
+	font-weight: normal;
+	display: inline;
+}
+
+#loginform ul li ul li label {
+	font-weight: normal;
+	display: inline;
+	cursor: pointer
+}
+
+#loginform ul li input, #myform textarea {
+	display: block;
+	width: 96%;
+	border: 1px solid #343742;
+	padding: 5px;
+	background-color: #FDFAF4;
+	margin: 0 auto;
+	outline: none;
+	border-radius: 5px;
+}
+
+#loginform input[required] {
+	border-color: #007DC3;
+}
+
+
+#loginbtn {
+	width: 100px;
+	width: 30%;
+	min-width: 100px;
+	float: right;
+	margin-top: 15px;
+	margin-right: 2%;
+	margin-bottom: 2%;
+	border: 0;
+	background-color: #007DC3;
+	color: #F7F3FF;
+	cursor: pointer;
+	font-size: 1.25em;
+	font-weight: bold;
+	border-radius: 8px;
+}
+
+#loginform button:hover {
+	color: black;
+	background-color: #FDFAF4;
+	transition-duration: .5s;
+	transition-timing-function: ease-in;
+}
+
+
+/******************SEARCH RESULT FILTER CSS*******************/
+
+#filteraside {
+	width: 32%;
+	float: left;
+	
+}
+
+#filter {
+	background-color: #67ADDA;
+	color: #007DC3;
+	
+}
+
+#filter h3 {
+	text-align: center;
+	color: white;
+}
+
+#filter h4 {
+	background-color: #007DC3;
+	color: white;
+	padding: 2%;
+}
+
+#cb1, #cb5, #cb9, #cb12 {
+	margin-left: 4px;
+}
+
+#filter button {
+	color: white;
+	background-color: #007DC3;
+	border: none;
+	border-radius: 10px;
+	padding: 2%;
+	float: right;
+	margin-top: 2%;
+	margin-right: 2%;
+}
+
+
+#resultlist {
+	width: 65%;
+	float: right;
+	
+}
+
+.resulttd1 {
+	background-color: #007DC3;
+	border: solid 1px black;
+	
+}
+
+.resulttd1 img {
+	width: auto;
+	height: auto;
+	margin: 2%;
+}
+
+.resulttd2 {
+	background-color: #67ADDA;
+	border: solid 1px black;
+}
+
+.resulttd2 p {
+	width: 85%;
+	color: white;
+	padding: 2%;
+}
+
+#moreresultbtn button {
+	border: none;
+	background-color: #007DC3;
+	border-radius: 10px;
+	font-size: 1.25em;
+	padding: 10px;
+	color: white;
+	width: 20%;
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+/******************RESULTS/DETAILS CSS******************/
+
+#gamedetails {
+	width: 68%;
+	float: left;
+}
+
+#gamedetails img {
+	width: 45%;
+	height: auto;
+	margin-top: 2%;
+	margin-left: 2%;
+}
+
+.details {
+	float: right;
+	width: 50%;
+	padding: 2%;
+	font-size: 1.25em;
+	color: #007DC3;
+	
+}
+
+.details h2 {
+	color: #007DC3;
+	border-bottom: solid 2px #007DC3;
+}
+
+ul li {
+	list-style:none;
+}
+
+ol li {
+	list-style: circle;
+}
+
+.reviews {
+	clear: both;
+}
+
+.reviews h2 {
+	background-color: #007DC3;
+	color: white;
+	text-align: center;
+	margin-bottom: 0px;
+	border-radius: 0;
+}
+
+.favicon {
+	width: 25px !important;
+	height: 25px !important;
+}
+
+#resulttable thead {
+	display: none;
+}
+.td3 {
+	color: white;
+}
+
+
+#resultaside {
+	width: 32%;
+	float: right;
+}
+
+.asidebtns {
+	background-color: #67ADDA;
+}
+
+.asidebtns button {
+	background-color: #007DC3;
+	color: white;
+	width: 60%;
+	margin-left: 15%;
+	margin-top: 5%;
+	border: none;
+	border-radius: 10px;
+	padding: 3%;
+	text-align:center;
+	font-size: 1.15em;
+	margin-bottom: 5%;
+	
+}
+
+.asidebtns button img {
+	height: 30px;
+	width: 40px;
+	float: left;
+}
+
+#detailtable {
+	width: 100%;
+	margin-top: 0;
+	margin-bottom: 15px;
+} 
+
+.adspace {
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+/*******************WISHLIST CSS************************/
+
+.wishlist {
+	margin-top: 100px;
+}
+
+table {
+	width: 100%;
+}
+
+#th1, #th2, #th3, .td1 {
+	background-color: #007DC3;
+	padding: 15px;
+}
+
+#th2, #th3 {
+	font-size: 1.75em;
+	color: white;
+}
+
+.td2, .td3 {
+	background-color: #67ADDA;
+	padding: 10px;
+	border: solid 1px #007DC3;
+}
+
+.td2 {
+	text-align: center;
+	color: white;
+	font-size: 1.25em;
+}
+
+.td3 p {
+	width: 85%;
+	color: white;
+}
+
+/************************************ MEDIA QUIERIES *****************************************/
+
+
+@media screen and (min-width: 480px) and (max-width: 767px){
+
+nav {
+	
+	clear: left;
+}
+
+/*************MAIN CSS***********/
+
+.search {
+	width: 70%;
+}
+
+.submit {
+	width: 30%;
+}
+
+.featured {
+	width: 98%;
+}
+
+#featured1 {
+	width: 70%;
+	margin-left: 15%;
+}
+
+#featured2 {
+	clear:left;
+	width: 70%;
+	margin-left: 15%;
+}
+
+#featured3 {
+	clear: both;
+	width: 70%;
+	margin-left: 15%;
+	padding-left: none;
+}
+.cta {
+	clear: both;
+	width: 100%;
+}
+
+
+/*************RESULTS CSS**********/
+
+.details {
+	clear: both;
+	width: 100%;
+}
+
+.reviews h2 {
+	width: 100%;
+}
+
+/*#gamedetails img {
+	height: auto;
+	width: 100%;
+	
+}*/
+#resultaside {
+	clear: both;
+	/*width: 100%;*/
+}
+
+#filteraside {
+	width: 100%;
+	clear: both;
+	
+}
+
+.adspace {
+	display: none;
+}
+
+#resultlist {
+	clear: both;
+	width: 100%;
+}
+
+#moreresultbtn button {
+	width: 50%;
+}
+
+#wishlisttable {
+	float: left;
+	width: 100%;
+}
+
+#gamedetails {
+	width: 100% !important;
+}
+
+#gamedetails img {
+	padding: 0;
+	margin-left: 25%;
+	margin-top: 5px;
+}
+
+
+	
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 479px){
+	
+body {
+	width: 100%;
+}
+
+nav {
+	
+	clear: left;
+}
+
+/*************MAIN CSS***********/
+.search {
+	width: 95%;
+}
+
+.submit {
+	width: 85%;
+}
+.featured {
+	width: 98%;
+}
+
+#featured1 {
+	width: 95%;
+}
+
+#featured2 {
+	clear:left;
+	width: 95%;
+}
+
+#featured3 {
+	clear: both;
+	width: 95%;
+	padding-left: none;
+}
+
+#featured1 img {
+	height: 250px;
+}
+
+#featured2 img {
+	height: 250px;
+}
+
+#featured3 img {
+	height: 250px;
+}
+
+.cta {
+	clear: both;
+	width: 100%;
+	margin-bottom: 25px;
+}
+
+/*************RESULTS CSS**********/
+
+.details {
+	clear: both;
+	width: 100%;
+}
+
+.reviews h2 {
+	width: 100%;
+}
+
+#gamedetails img {
+	height: auto;
+	width: 100%;
+	
+}
+#resultaside {
+	clear: both;
+	width: 100%;
+}
+
+#filteraside {
+	width: 100%;
+	clear: both;
+	
+}
+
+.adspace {
+	display: none;
+}
+
+#resultlist {
+	clear: both;
+	width: 100%;
+}
+
+.td3 {
+	color: white;
+}
+
+#moreresultbtn button {
+	width: 50%;
+}
+
+.resulttd1 img {
+	width: 65px;
+	height: 65px;
+	margin: 2%;
+}
+
+.resulttd2 p {
+	margin: 2%;
+	padding: 2%;
+}
+
+#th1, .td1 {
+	display: none;
+}
+/*
+.td2 img {
+	width: 75px;
+	height: 75px;
+}
+*/
+table, thead, tbody, th, td, tr { 
+	display: block; 
+}
+
+thead tr {
+	position: absolute;
+	top: -9999px;
+	left: -9999px;
+}
+
+tr {
+	/*border: 1px solid #007dc3;*/
+	border: none;
+}
+
+td {
+	border: none !important;
+	/*border-bottom: 1px solid #007dc3;*/
+	position: relative;
+	padding-left: 50%;
+}
+
+.td2 p {
+	font-weight: bolder;
+}
+
+.td3 {
+	padding-bottom: 17%;
+	border-bottom: 1px solid #007dc3 !important;
+}
+
+
+/*td:before {
+	position: absolute;
+	top: 6px;
+	left: 6px;
+	width: 45%;
+	padding-right: 10px;
+	white-space: nowrap;
+}
+
+td:nth-of-type(1):before {content: "Game";}
+td:nth-of-type(2):before {content: "Description";}*/
+
+#wishlisttable {
+	float: left;
+	width: 100%;
+}
+
+#gamedetails {
+	width: 100% !important;
+}
+
+#gamedetails img {
+	padding: 0;
+	margin: 0;
+	margin-top: 5px;
+}
+
+footer {
+	width: 100%;
+}
+	
+}

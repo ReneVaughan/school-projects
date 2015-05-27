@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Game Search</title>
+<meta name="description" content="Game Search is a website where you can search for games and get reviews. You can also filter by certain categories so it acts as a discovery tool. Registered users can add games to a wishlist." />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="css/main.css" rel="stylesheet" type="text/css">
+
+
+
+</head>
+
+<body>
+	<div class="container">
+      <nav id="main" role="navigation">
+
+        <ul id="mainNav">
+          <li><a href="index.html">Home</a></li>         
+          <li><a href="signup.html">Sign Up</a></li>
+          <li><a href="login.html">Login</a></li>
+          <li><a href="wishlist.html">Wishlist</a></li>
+        </ul>
+
+       </nav>
+
+      <header>
+  		<h1><img src="images/logo.png"><b>Game</b> Search</h1>	
+     </header>
+     
+     <div class="searcharea">
+     	<h2> Find Great Board Games and Reviews! </h2>
+     	<form class="searchbox" action="">
+    		<input class="search" type="text" placeholder="Search">
+            <br>
+            <br>
+            
+    		<input class="submit" type="button" value="Search"
+             onclick="window.location='searchfilter.html';" />
+            
+		</form>
+     
+     </div>
+     
+     <div class="belowsearch">
+
+     	<section class="featured">
+        	<h3>Featured Games by Reviews</h3>
+            <div id="featured1">
+            	<img src="images/agricola.jpg"><br>
+                <h4 class="featuredhead">Agricola</h4>
+                <p class="pcontent">by: John D.</p> 
+                <p class="pcontent">Award winning euro-agricultural sim..</p>
+                <button type="submit" class="featuredbtn">Read More</button>
+                <br>
+                <br>
+            </div>
+            
+            <div id="featured2">
+            	<img src="images/zombicide.jpg"><br>
+                <h4 class="featuredhead">Zombicide</h4>
+                <p class="pcontent">by: Rebecca S.</p>
+                <p class="pcontent">Amazing cooperative game that aims for a..</p>
+                <button type="submit" class="featuredbtn">Read More</button>
+                <br>
+                <br>
+            
+            </div>
+            
+            <div id="featured3">
+            	<img src="images/pandemic.jpg"><br>
+                <h4 class="featuredhead">Pandemic</h4>
+                <p class="pcontent">by: Steven D.</p>
+                <p class="pcontent">Great strategic cooperative game that..</p>
+                <button type="submit" class="featuredbtn">Read More</button>
+                <br>
+                <br>
+            
+            </div>
+            
+        </section>
+        
+        
+        <div class="cta">
+        	<p class="ctacontent"> <b>SIGN UP</b> to see detailed results and <b>DISCOVER</b> new games along the way! You can also add those games to a <b>WISHLIST!</b>
+            </p>
+            <button type="submit">Sign Up!</button>
+        </div>
+     </div> <!--END SEARCH AREA DIV-->
+     <br>
+     <br>
+    <footer>
+    	<p>Student: Rene Vaughan</p>
+    </footer>
+
+    
+    </div> 
+<script type="text/javascript" src="js/bootstrap.js"></script>
+</body>
+</html>

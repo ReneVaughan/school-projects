@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Wishlist - Game Search</title>
+<meta name="description" content="Game Search wishlist." />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="css/main.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+	<div class="container">
+      <nav id="main" role="navigation">
+
+        <ul id="mainNav">
+          <li><a href="index.html">Home</a></li>         
+          <li><a href="signup.html">Sign Up</a></li>
+          <li><a href="login.html">Login</a></li>
+          <li><a href="wishlist.html">Wishlist</a></li>
+        </ul>
+
+       </nav>
+
+      <header>
+  		<h1><img src="images/logo.png"><b>Game</b> Search</h1>	
+     </header>
+     
+     <div class="searcharea">
+     	<h2> Find Great Board Games and Reviews! </h2>
+     	<form class="searchbox" action="">
+    		<input class="search" type="text" placeholder="Search">
+            <br>
+            <br>
+    		<input class="submit" type="button" value="Search" onclick="window.location='searchfilter.html';">
+		</form>
+     </div>
+     
+     <div class="wishlist">
+     	<h2> Game Wishlist </h2>
+          	<div class="tablewrapper">
+            <div id="wishlisttable">
+              <table>
+                <thead>
+                  <tr>
+                    <th id="th1"></th>
+                    <th id="th2">Game</th>
+                    <th id="th3">Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="td1"><input type="checkbox" name="myTextEditBox" value="checked" /></td>
+                    <td class="td2"><p>Dominion<br></p><img src="images/dominion.jpg"></td>
+                    <td class="td3"><p>In Dominion, each player starts with an identical, very small deck of cards. In the center of the table is a selection of other cards the players can "buy" as they can afford them. Through their selection of cards to buy, and how they play their hands as they draw them, the players construct their deck on the fly, striving for the most efficient path to the precious victory points by game end....</p>
+                    <button type="submit" class="featuredbtn">Details</button>
+                    </td>
+                    
+                  </tr>
+                  <tr>
+                    <td class="td1"><input type="checkbox" name="myTextEditBox" value="checked" /></td>
+                    <td class="td2"><p>Zombicide</p><img src="images/zombicide.jpg"></td>
+                    <td class="td3"><p>Zombicide is a collaborative game in which players take the role of a survivor – each with unique abilities – and harness both their skills and the power of teamwork against the hordes of unthinking undead! Zombies are predictable, stupid but deadly, controlled by simple rules and a deck of cards. Unfortunately for you, there are a LOT more zombies than you have bullets....</p>
+                    <button type="submit" class="featuredbtn">Details</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="td1"><input type="checkbox" name="myTextEditBox" value="checked" /></td>
+                    <td class="td2"><p>Agricola</p><img src="images/agricola.jpg"></td>
+                    <td class="td3"><p>In Agricola, you're a farmer in a wooden shack with your spouse and little else. On a turn, you get to take only two actions, one for you and one for the spouse, from all the possibilities you'll find on a farm: collecting clay, wood, or stone; building fences; and so on. You might think about having kids in order to get more work accomplished, but first you need to expand your house....</p>
+                    <button type="submit" class="featuredbtn">Details</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="td1"><input type="checkbox" name="myTextEditBox" value="checked" /></td>
+                    <td class="td2"><p>Pandemic</p><img src="images/pandemic.jpg"></td>
+                    <td class="td3"><p>In Pandemic, several virulent diseases have broken out simultaneously all over the world! The players are disease-fighting specialists whose mission is to treat disease hotspots while researching cures for each of four plagues before they get out of hand....</p>
+                    <button type="submit" class="featuredbtn">Details</button>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>    
+      
+      </div> <!--END TABLE WRAPPER-->
+
+        
+     </div><!--END WISHLIST DIV-->
+     <footer>
+    	<p>Student: Rene Vaughan</p>
+    </footer>
+
+    </div>
+<script type="text/javascript" src="js/bootstrap.js"></script>     
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Login - Game Search</title>
+<meta name="description" content="Login to Game Search account."
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="css/main.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+	<div class="container">
+      <nav id="main" role="navigation">
+
+        <ul id="mainNav">
+          <li><a href="index.html">Home</a></li>         
+          <li><a href="signup.html">Sign Up</a></li>
+          <li><a href="login.html">Login</a></li>
+          <li><a href="wishlist.html">Wishlist</a></li>
+        </ul>
+
+       </nav>
+
+      <header>
+  		<h1><img src="images/logo.png"><b>Game</b> Search</h1>	
+     </header>
+     <div id="formwrapper">
+ 
+     <h2> Login To Account</h2>
+      
+      <form id="loginform" class="group" action="POST" method="POST" >
+        <fieldset title="Login To Account">
+            <legend>Login To Account</legend>
+            <ul>
+                <li>
+                    <label for="username">Username</label>
+                    <input type="text" name="username" id="loginusername" autofocus required />
+                </li>
+                <li>
+                    <label for="mypassword">Password</label>
+                    <input type="password" name="mypassword" id="mypassword" required />
+                </li>
+                
+
+                <li class="singleline">
+                    <input type="checkbox" id="rememberme" name="rememberme" CHECKED value="yes" />
+                    <label for="rememberme">Remember Me</label>
+                </li>
+            </ul>
+        <input class="submit" id="loginbtn" type="submit" value="Login">
+        <br>
+     </fieldset>
+    </form>
+    
+    </div> <!--END FORM WRAPPER-->
+    <footer>
+    	<p>Student: Rene Vaughan</p>
+    </footer>
+        
+    </div> 
+<script type="text/javascript" src="js/bootstrap.js"></script>    
+</body>
+</html>
